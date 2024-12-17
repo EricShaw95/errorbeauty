@@ -1,0 +1,10 @@
+[workspace]
+members = ["error-code", "error-code-derive"]
+resolver = "2"
+
+[workspace.dependencies]
+error-code = {path = "./error-code"}
+error-code-derive = {path = "./error-code-derive"}
+thiserror = "2.0.7"
+http = "1.2.0"
+anyhow = "1.0.94"
